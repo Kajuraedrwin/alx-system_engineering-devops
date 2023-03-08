@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in 8.html do if[[! -e $(dirname "$PWD")/$(file) or file -nt $(dirname "$PWD")/$(file)]]  cp $(file) $(dirname $(pwd))
+parent_dir=$(dirname $(pwd)) for file in *.html do if [[ ! -e "${parent_dir}/${file}" or "${file} -nt "${parent_dir}/${file} ]] cp "${file}" "${parent_dir}"
