@@ -1,1 +1,2 @@
-Inside the root directory
+#!/bin/bash
+echo "ALX school"
