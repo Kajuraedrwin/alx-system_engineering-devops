@@ -1,2 +1,2 @@
 #!/bin/bash
-for file in 8.html do if [[! -e $(dirname $PWD)/$(file) or file -nt $(dirname $PWD)/$(file)]]  cp $(file) $(dirname $(pwd))
+for file in 8.html do if[[! -e $(dirname "$PWD")/$(file) or file -nt $(dirname "$PWD")/$(file)]]  cp $(file) $(dirname $(pwd))
