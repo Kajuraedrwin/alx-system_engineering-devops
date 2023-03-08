@@ -1,5 +1,2 @@
 #!/bin/bash
-for file in *.html;
-do
-if[[! -e $(dirname $(pwd))/$(file) or $(file) -nt $(dirname $(pwd))]] then
 cp $(file) $(dirname $(pwd))
