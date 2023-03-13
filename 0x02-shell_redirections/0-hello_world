@@ -1,2 +1,2 @@
 #!/bin/bash
-cat "hello world \n" > 2>$1
+echo "Hello, World"
