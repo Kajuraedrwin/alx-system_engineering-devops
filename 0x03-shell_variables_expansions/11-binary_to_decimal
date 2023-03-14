@@ -1,2 +1,2 @@
 #!/bin/bash
-binary="$BINARY" | decimal=$((2#$binary))  | echo "$decimal"
+binary="$BINARY" | decimal=$((2#$binary))  | echo "$decimal\n"
